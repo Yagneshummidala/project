@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div id="sectionHome">
+        <div class="bg-container d-flex flex-column justify-content-center">
+            <div class="Home-card">
+                <h1 class="main-heading">SMART BMI-Based diet planner</h1>
+                <p class="paragraph">Path to Optimal health and Fitness</p>
+                <button class="button" onclick="display('sectionNextPage')">Get Started</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionNextPage">
+        <div class="NextPage-bg-container">
+            <h1 class="NextPage-heading">Boost your Fitness activity</h1>
+            <div class="NextPage-card-container d-flex flex-row" onclick="display('sectionExerciseDetailedView')">
+                <div>
+                    <h1 class="NextPage-card-heading">Exercise</h1>
+                    <p class="NextPage-card-description">
+                        Regular exercise has been shown to help boost energy levels and enhance your mood.
+                        It may also be associated with many other powerful health benefits.
+                    </p>
+                </div>
+                <img src="https://i.pinimg.com/originals/c0/d5/4a/c0d54a936138a6699579859738926593.jpg" class="card-image" />
+            </div>
+            <div class="NextPage-card-container d-flex flex-row" onclick="display('sectionYogaDetailedView')">
+                <div>
+                    <h1 class="NextPage-card-heading">Yoga</h1>
+                    <p class="NextPage-card-description">
+                        Yoga is an Art and Science of healthy living.
+                        It is a spiritual discipline based on an extremely subtle science, which focuses on bringing harmony between mind and body.
+                        The holistic approach of Yoga brings harmony to all walks of life.
+                    </p>
+                </div>
+                <img src="https://cdn4.vectorstock.com/i/1000x1000/15/73/yoga-background-vector-4541573.jpg" class="card-image" />
+            </div>
+            <div class="NextPage-card-container d-flex flex-row" onclick="display('sectionBMI-plan')">
+                <div class="BMI-plan" onclick="display('sectionBMI-plan')">
+                    <h1 class="NextPage-card-heading">Diet Planner</h1>
+                    <p class="NextPage-card-description">
+                        Personalized Food Recommendations:
+                        Based on the user's BMI and goals, we recommend specific foods and recipes that align with their nutritional needs.
+
+                    </p>
+                </div>
+                <img src="https://fitnessvolt.com/wp-content/uploads/2021/08/BMI-range-765x447.jpg" class="card-image" />
+            </div>
+            <button class="btn btn-dark" onclick="display('sectionHome')">back</button>
+        </div>
+    </div>
+    <div id="sectionExerciseDetailedView">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading">Detailed View</h1>
+            <div class="detailed-view-card-container">
+                <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://th.bing.com/th/id/OIP.gNAn9eK1g6_s0F1OEe_WPQHaEW?pid=ImgDet&rs=" class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://static.vecteezy.com/system/resources/previews/000/162/135/original/push-up-pose-vector.jpg" class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://th.bing.com/th/id/OIP.BnXj0-65J8LaylIfBW9hGgHaDs?pid=ImgDet&rs=1" class="d-block w-100" alt="..." />
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="detailed-view-card-text-container">
+                    <h1 class="detailed-view-card-heading">Regular Exercise benefits </h1>
+                    <p class="detailed-view-card-description">
+                        Exercise is basically any physical activity that we perform on a repetitive basis for relaxing our body and taking away all the mental stress. It is important to do regular exercise. When you do this on a daily basis, you become fit both physically and mentally. Moreover, not exercising daily can make a person susceptible to different diseases. Thus, just like eating food daily, we must also exercise daily.
+                    </p>
+                </div>
+            </div>
+            <button class="btn btn-dark" onclick="display('sectionNextPage')">
+                back
+            </button>
+        </div>
+    </div>
+
+    <div id="sectionYogaDetailedView">
+        <div class="detailed-view-bg-container">
+            <h2 class="NextPage-card-heading">Detailed View</h2>
+            <img class="yoga-girl-image" src="https://assets.ccbp.in/frontend/static-website/yoga-girl-without-headphones-img.png" />
+            <h3 class="content-heading">Types of Yoga</h3>
+            <div class="yoga-types ">
+                <div class="types-card d-flex flex-row">
+                    <img class="logo" src="https://assets.ccbp.in/frontend/static-website/yoga-card1-img.png" />
+                    <div class="yoga-type-content">
+                        <h2 class="content-heading">Acro yoga</h2>
+                        <p class="content-para">It streaches and realxes your body <br />imprves stamina and memory. </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="yoga-types">
+                <div class="types-card d-flex flex-row">
+                    <img class="logo" src="https://assets.ccbp.in/frontend/static-website/yoga-card2-img.png" />
+                    <div class="yoga-type-content">
+                        <h2 class="content-heading">Vinyasa Yoga</h2>
+                        <p class="content-para">Vinyasa yoga is a contemporary style of yoga that links movement and breath.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="yoga-types">
+                <div class="types-card d-flex flex-row">
+                    <img class="logo" src="https://assets.ccbp.in/frontend/static-website/yoga-card3-img.png" />
+                    <div class="yoga-type-content">
+                        <h2 class="content-heading">Hatha yoga</h2>
+                        <p class="content-para">Hatha yoga is a branch of yoga that emphasizes physical techniques to preserve and channel vital force . </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="yoga-types">
+                <div class="types-card d-flex flex-row">
+                    <img class="logo" src="https://assets.ccbp.in/frontend/static-website/yoga-card4-img.png" />
+                    <div class="yoga-type-content">
+                        <h2 class="content-heading">Kundalini yoga</h2>
+                        <p class="content-para">Kundalini yoga is a form of yoga that involves chanting, singing, breathing exercises, and repetitive poses.</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <button class="btn btn-dark" onclick="display('sectionNextPage')">
+                back
+            </button>
+
+        </div>
+    </div>
+
+    <div id="sectionBMI-plan">
+        <div class="detailed-view-bg-container">
+            <h1 class="BMI-main-heading ">BMI claculator</h1>
+            <div id="claculator " class="BMI-card d-flex flex-column justify-content-center">
+
+                <label for="weight" class="BMI-heading">Weight in kg:</label><br />
+                <input type="text" class="BMI-heading" id="weight" value="0" /><br />
+
+                <label for="height" class="BMI-heading">Height in meters:</label><br />
+                <input type="text" class="BMI-heading" id="height" value="0" /><br />
+
+                <label for="age" class="BMI-heading">AGE:</label><br />
+                <input type="text" class="BMI-heading" id="age" value="0" /><br />
+
+                <label for="BMI" class="BMI-heading">BMI:</label><br />
+                <input type="text" class="BMI-heading" id="BMI" value="0" disabled /><br />
+
+                <input type="button" class="button" value="Calculate" onclick="calculate()" />
+                <input type="button" class="button" value="Reset" onclick="reset()" />
+
+            </div>
+
+            <button class="btn btn-dark" onclick="display('sectionNextPage')">
+                back
+            </button>
+        </div>
+    </div>
+
+    <script>
+        function reset()
+        {
+            document.getElementById("weight").value = "0";
+            document.getElementById("height").value = "0";
+            document.getElementById("age").value = "0";
+            document.getElementById("BMI").value = "0";
+            var generatedLinks = document.querySelectorAll('a[title]');
+            generatedLinks.forEach(function (link) {
+            link.remove();
+            });
+
+        }
+        function calculate()
+        {
+            var num1 = Number(document.getElementById("weight").value);
+            var num2 = Number(document.getElementById("height").value);
+            var bmi= (num1/(num2*num2));
+            document.getElementById("BMI").value= String(bmi);
+            document.getElementById
+            var a = document.createElement('a'); 
+                if(bmi>=30)
+                {
+                  // Create the text node for anchor element.
+                  var link = document.createTextNode("OBESITY");
+                    
+                  // Append the text node to anchor element.
+                  a.appendChild(link); 
+
+                  a.title = "OBESITY"; 
+                    
+                  // Set the href property.
+                  a.href = "/obesity.html"; 
+                    
+                  // Append the anchor element to the body.
+                  document.body.appendChild(a);
+                }
+                else if(bmi>=25)
+                {
+                  var link = document.createTextNode("OVER WEIGHT");
+                  a.appendChild(link); 
+                  a.title = "OVER WEIGHT"; 
+                  a.href = "/over_weight.html"; 
+                  document.body.appendChild(a);
+                }
+                else if(bmi>=18.5)
+                {
+                  var link = document.createTextNode("NORMAL WEIGHT");
+                  a.appendChild(link);
+                  a.title = "NORMAL WEIGHT"; 
+                  a.href = "/normal_weight.html"; 
+                  document.body.appendChild(a);
+                }
+                else if(bmi>=0)
+                {
+                  var link = document.createTextNode("UNDER WEIGHT");
+                  a.appendChild(link); 
+                  a.title = "UNDER WEIGHT";
+                  a.href = "/under_weight.html"; 
+                  document.body.appendChild(a);
+                }
+        }
+    </script>
+
+<style>
+    /* Define styles for the appended anchor elements */
+    a {
+        display: inline-block;
+        padding: 10px 20px;
+        margin-top: 10px;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+        color: #fff;
+        background-color: #007bff; /* Blue background color */
+        border: 1px solid #007bff; /* Blue border color */
+        border-radius: 5px;
+    }
+
+    /* Define styles for different BMI categories */
+    a[title="OBESITY"] {
+        background-color: #ff6347; /* Red background color for Obesity */
+        border-color: #ff6347; /* Red border color for Obesity */
+    }
+
+    a[title="OVER WEIGHT"] {
+        background-color: #ffa500; /* Orange background color for Overweight */
+        border-color: #ffa500; /* Orange border color for Overweight */
+    }
+
+    a[title="NORMAL WEIGHT"] {
+        background-color: #008000; /* Green background color for Normal Weight */
+        border-color: #008000; /* Green border color for Normal Weight */
+    }
+
+    a[title="UNDER WEIGHT"] {
+        background-color: #ff69b4; /* Pink background color for Underweight */
+        border-color: #ff69b4; /* Pink border color for Underweight */
+    }
+
+    /* Hover styles */
+    a:hover {
+        background-color: #0056b3; /* Darker blue background color on hover */
+        border-color: #0056b3; /* Darker blue border color on hover */
+    }
+</style>
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>

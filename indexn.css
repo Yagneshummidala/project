@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190620/ourmid/pngtree-sport-running-fitness-colorful-low-profile-flat-h5-background-image_146977.jpg");
+    height: 100vh;
+    max-width: 100%;
+    background-size: cover;
+
+}
+
+.Home-card {
+    text-align: center;
+    background-color: white;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 5px;
+}
+
+.button {
+    color: white;
+    background-color: #25b1cc;
+    width: 138px;
+    height: 36px;
+    border-width: 0px;
+    border-radius: 20px;
+    margin: 8px;
+    text-align: center;
+}
+
+.main-heading {
+    font-family: "Roboto";
+    color: yellow;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: Arial;
+}
+
+.paragraph {
+    font-family: "Roboto";
+    color: black;
+    font-weight: normal;
+}
+
+.NextPage-bg-container {
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190620/ourmid/pngtree-fitness-poster-background-material-image_155751.jpg");
+    height: 150vh;
+    background-size: cover;
+    padding: 24px;
+    max-width: 100%;
+    text-align: left ;
+}
+
+.NextPage-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.NextPage-card-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 15px;
+    width: 410px;
+    height: 200px;
+    max-width :100% ;
+}
+
+.NextPage-card-heading {
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.NextPage-card-description {
+    color: #6c6b70;
+    font-family: "Roboto";
+    font-size: 13px;
+}
+
+.card-image {
+    width: 130px;
+    height: 170px;
+}
+
+.favourite-place-card-text-container {
+    margin-right: 15px;
+}
+
+.detailed-view-bg-container {
+    background-color: #ffedcb;
+}
+
+.detailed-view-heading {
+    color: black;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: normal;
+    padding: 24px;
+}
+
+.detailed-view-card-container {
+    background-color: white;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin: 24px;
+}
+
+.detailed-view-card-heading {
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.detailed-view-card-description {
+    color: #6c6b70;
+    font-family: "Roboto";
+    font-size: px;
+}
+
+.detailed-view-card-text-container {
+    padding: 16px;
+}
+
+
+
+
+.yoga-girl-image {
+    height: 140px;
+    width: 190px;
+    text-align: center;
+    margin: 5px;
+}
+
+
+
+.types-card {
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding: 12px;
+    margin: 2px
+}
+
+.yoga-types {
+    padding: 22px;
+    margin: 2px;
+}
+
+.logo {
+    height: 75px;
+    width: 75px;
+}
+
+.content-heading {
+    font-family: "Roboto";
+    color: #253263;
+    font-size: px;
+    text-align: left;
+    padding: 2px;
+    margin: 2px;
+}
+
+.content-para {
+    font-family: "Roboto";
+    color: #323f4b;
+    font-size: px;
+    text-align: left;
+    padding: 3px;
+}
+.BMI-card{
+    background-color:#ffffff;
+    border-radius : 12px ;
+    border-width:200px ;
+    max-width:100%;
+    margin:8px ;
+    padding :35px ;
+}
+.BMI-heading{
+    font-family: monospace;
+    font-style: bold ;
+    font-weight: bolder ;
+    color : rgb(39, 39, 41) ;
+}
+.BMI-main-heading{
+    font-family: Monoton ;
+    text-decoration: underline;
+    font-weight: lighter;
+    color : lightslategray;
+    padding:8px;
+    text-align: center;
+}
