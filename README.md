@@ -1,2 +1,2 @@
-# project
-college project
+# Project
+College project for Internal SIH
